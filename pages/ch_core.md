@@ -960,7 +960,7 @@ The resulting [CArgs](#ch_core.CArgs) object will contain parsed, verified, and 
 
 <a name="ch_core.F1"></a>
 
-[![Figure 1. Argument processing class relations.](/cxx-toolkit/static/img/flow.gif)](/cxx-toolkit/static/img/flow.gif "Click to see the full-resolution image")
+[![Figure 1. Argument processing class relations.](/template/static/img/flow.gif)](/template/static/img/flow.gif "Click to see the full-resolution image")
 
 Figure 1. Argument processing class relations.
 
@@ -2643,7 +2643,7 @@ The following subsections discuss the individual classes in more detail.
 
 <a name="ch_core.F2"></a>
 
-[![Figure 2. Thread Life Cycle](/cxx-toolkit/static/img/thread_life_cycle.gif)](/cxx-toolkit/static/img/thread_life_cycle.gif "Click to see the full-resolution image")
+[![Figure 2. Thread Life Cycle](/template/static/img/thread_life_cycle.gif)](/template/static/img/thread_life_cycle.gif "Click to see the full-resolution image")
 
 Figure 2. Thread Life Cycle
 

@@ -73,7 +73,7 @@ All Toolkit `makefiles` reside in either the `src` directory as templates or cus
 
 <a name="ch_build.F1"></a>
 
-[![Figure 1. Makefile hierarchy.](/cxx-toolkit/static/img/make.gif)](/cxx-toolkit/static/img/make.gif "Click to see the full-resolution image")
+[![Figure 1. Makefile hierarchy.](/template/static/img/make.gif)](/template/static/img/make.gif "Click to see the full-resolution image")
 
 Figure 1. Makefile hierarchy.
 

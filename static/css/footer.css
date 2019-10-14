@@ -66,21 +66,21 @@ padding-top : 14px;
 text-indent : 10em;
 }
 #usagov_thumb_logo a {
-background : url(/cxx-toolkit/static/img/footer_imgs.png) -114px 100% no-repeat scroll transparent;
+background : url(/template/static/img/footer_imgs.png) -114px 100% no-repeat scroll transparent;
 width : 89px;
 }
 #hhs_thumb_logo a {
-background : url(/cxx-toolkit/static/img/footer_imgs.png) -75px 100% no-repeat scroll transparent;
+background : url(/template/static/img/footer_imgs.png) -75px 100% no-repeat scroll transparent;
 width : 39px;
 margin-right : 14px;
 }
 #nih_thumb_logo a {
-background : url(/cxx-toolkit/static/img/footer_imgs.png) -35px 100% no-repeat scroll transparent;
+background : url(/template/static/img/footer_imgs.png) -35px 100% no-repeat scroll transparent;
 width : 40px;
 margin-right : 14px;
 }
 #nlm_thumb_logo a {
-background : url(/cxx-toolkit/static/img/footer_imgs.png) 0 100% no-repeat scroll transparent;
+background : url(/template/static/img/footer_imgs.png) 0 100% no-repeat scroll transparent;
 width : 34px;
 margin-right : 14px;
 }
@@ -169,21 +169,21 @@ text-align : left;
 /* Images on the footer's right side */
 
 #nlm_thumb_logo a {
-    background: transparent url(/cxx-toolkit/static/img/footer_imgs.png) no-repeat scroll 0 100%;
+    background: transparent url(/template/static/img/footer_imgs.png) no-repeat scroll 0 100%;
     width: 34px;
     margin-right: 14px;
 }
 #nih_thumb_logo a {
-    background: url(/cxx-toolkit/static/img/footer_imgs.png) -35px 100% no-repeat scroll transparent;
+    background: url(/template/static/img/footer_imgs.png) -35px 100% no-repeat scroll transparent;
     width: 40px;
     margin-right: 14px;
 }
 #hhs_thumb_logo a {
-    background: url(/cxx-toolkit/static/img/footer_imgs.png) -75px 100% no-repeat scroll transparent;
+    background: url(/template/static/img/footer_imgs.png) -75px 100% no-repeat scroll transparent;
     width: 39px;
     margin-right: 14px;
 }
 #usagov_thumb_logo a {
-    background: url(/cxx-toolkit/static/img/footer_imgs.png) -114px 100% no-repeat scroll transparent;
+    background: url(/template/static/img/footer_imgs.png) -114px 100% no-repeat scroll transparent;
     width: 89px;
 }

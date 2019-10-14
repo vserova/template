@@ -587,7 +587,7 @@ function SymbolSearch(bookID)
       url = "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lib_search/libsearch.cgi?public=yes&symbol=" + f.__symbol.value; 
   }
 
- //  if(sel=='google_search') { url = "http://www.google.com/#q=" + f.__symbol.value + " site:ncbi.github.io/cxx-toolkit"; }  
+ //  if(sel=='google_search') { url = "http://www.google.com/#q=" + f.__symbol.value + " site:ncbi.github.io/template"; }  
 
   // window.location = url;
   window.open(url,'_newtab');
