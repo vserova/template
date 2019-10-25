@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Applications
+title: Your Chapter 1 title
 nav: pages/chapter1
 ---
 
