@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part 1. Overview
+title: Part 1. 
 nav: pages/part1
 ---
 
@@ -8,9 +8,9 @@ nav: pages/part1
 {{ page.title }}
 ===============================
 
-Part 1 provides an introduction to the C++ Toolkit. The first chapter, "Introduction to the C++ Toolkit" provides a broad overview of the capabilties in the C++ Toolkit with links to other chapters that cover topics in more detail. The second chapter "Getting Started" provides a description of how to obtain the C++ Toolkit, the layout of the source distribution tree, and how to get started. The following is a list of chapters in this part:
+Part 1 consist of 2 chapters. You can add your description here.
 
--   [Introduction to the C++ Toolkit](ch_intro.html)
--   [Getting Started](ch_start.html)
+-   [Chapter 1](chapter1.html)
+-   [Chapter 2](chapter2.html)
 
 
