@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Applications
-nav: pages/ch_app
+nav: pages/chapter1
 ---
 
 
@@ -10,11 +10,11 @@ nav: pages/ch_app
 
 ## Introduction
 
-Most of the applications discussed in this chapter are built on a regular basis, at least once a day from the latest sources, and if you are in NCBI, then you can find the latest version in the directory: `$NCBI/c++/Release/bin/` (or `$NCBI/c++/Debug/bin/`).
+Your introduction (if any) here.
 
 ## Chapter Outline
 
-The following is an outline of the topics presented in this chapter:
+Your table of content here.
 
 -   [DATATOOL: code generation and data serialization utility](#ch_app.datatool)
 
