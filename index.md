@@ -12,7 +12,6 @@ National Center for Biotechnology Information (US): Bethesda (MD); 2004-2019.
 Contents
 --------
 
--   [Book Information](pages/fm)
 -   [Part 1.](pages/part1)
     -   [Chapter 1](pages/chapter1)
     -   [Chapter 2](pages/chapter2)
