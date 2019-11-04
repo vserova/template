@@ -538,58 +538,13 @@ xQuery(function($j) {
 		return this;
 	};
 })(xQuery);
-;
-/* Override this file with one containing code that belongs on every page of your application */
-
-
-;
-
-
-
-// search bar functionality
-function toggleInHouseCheckbox(visibility){
-	document.getElementById("switch_nobr").style.visibility = visibility; 
-}
 
 function SymbolSearch(bookID)
 {
 
   var f = document.forms['frmSymbolSearch'];
-  var url; 
-  var sel;
-  var in_house = f.switch.checked;
+  var url="https://www.google.com/search?q=site:github.com/ncbi/template " + f.__symbol.value;
 
-  for(i=0;i<f.__symboloc.length;i++) if(f.__symboloc[i].checked == true ) { sel=f.__symboloc[i].id; }
-
-
-  if(sel=='book_search') { 
-    url = "http://www.ncbi.nlm.nih.gov/toolkitbookgh/?term=" + f.__symbol.value; 
-  } else
-
-  if(sel=='toolkit') { 
-    if(in_house) 
-      url = "http://test.ncbi.nlm.nih.gov/toolkitinternal/?term=" + f.__symbol.value; 
-    else
-      url = "http://www.ncbi.nlm.nih.gov/toolkit/?term=" + f.__symbol.value; 
-  } else
-
-  if(sel=='pLXR') { 
-    if(in_house)
-      url = "http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/lxr/ident?i=" + f.__symbol.value + "&d=";
-    else
-      url = "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/ident?i=" + f.__symbol.value + "&d="; 
-  } else
-
-  if(sel=='pLib') { 
-    if(in_house)
-      url = "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lib_search/libsearch.cgi?public=no&symbol=" + f.__symbol.value; 
-    else
-      url = "http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lib_search/libsearch.cgi?public=yes&symbol=" + f.__symbol.value; 
-  }
-
- //  if(sel=='google_search') { url = "http://www.google.com/#q=" + f.__symbol.value + " site:ncbi.github.io/template"; }  
-
-  // window.location = url;
   window.open(url,'_newtab');
   
   return false;
@@ -842,16 +797,4 @@ function unoem()
      });//End of DOM Ready
 
 })(xQuery);
-
-/*
-a call back for the 'Turn off' link at the bottom of the auto complete list
-*/
-function NcbiSearchBarAutoComplCtrl(){
-    xQuery("#term").ncbiautocomplete("turnOff",true);
-    if (typeof(NcbiSearchBarSaveAutoCompState) == 'function')
-        NcbiSearchBarSaveAutoCompState();
- }
-
- 
-
 
