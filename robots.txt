@@ -1,0 +1,9 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /template/
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://vserova.github.io/template/sitemap_000.xml
