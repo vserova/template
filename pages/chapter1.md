@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your Chapter 1 title
+title: How to use this template for your documentation
 nav: pages/chapter1
 ---
 
@@ -8,10 +8,11 @@ nav: pages/chapter1
 {{ page.title }}
 ================================================
 
-## Introduction
-
-Your introduction (if any) here.
 
 ## Chapter Outline
 
 Your table of content here.
+
+
+How to start
+-------------
