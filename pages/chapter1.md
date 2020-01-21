@@ -11,10 +11,10 @@ nav: pages/chapter1
 
 ## Chapter Outline
 
-- [How to start](#how_to_start)
+- [How to start](#chapter1.how_to_start)
 
 
-<a name="how_to_start"></a>
+<a name="chapter1.how_to_start"></a>
 How to start
 -------------
 
