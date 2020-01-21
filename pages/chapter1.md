@@ -13,11 +13,23 @@ nav: pages/chapter1
 
 - [How to start](#chapter1.how_to_start)
 
+  - [Creating your repository](#chapter1.Creating_your_repository)
+  
+  - [Cloning the template](#chapter1.Cloning_the_template)
+  
+  - [Setting up your own site](#chapter1.Setting_up_your_own_site)
+  
+    - [About this template](#chapter1.About_this_template)
+    
+  - [Indexing your GitHub site with Google](#chapter1.Indexing_your_GitHub_site_with_Google)
+
 
 <a name="chapter1.how_to_start"></a>
 
 How to start
 -------------
+
+<a name="chapter1.Creating_your_repository"></a>
 
 ### Creating your repository
 
@@ -26,13 +38,19 @@ To start your project on GitHub you have to create a repository. All NCBI reposi
 You also have to ask NCBI GitHub support group to give admin permissions to a person or group of persons that will administrate your repository. This person(s) will be administrate your site, give permissions to other contributors, review and merge pull requests, etc.
 You can read about GitHub permissions [here](https://help.github.com/en/github/getting-started-with-github/access-permissions-on-github).
 
+<a name="chapter1.Cloning_the_template"></a>
+
 ### Cloning the template
 
 The next step is cloning this template. 
 
+<a name="chapter1.Setting_up_your_own_site"></a>
+
 ### Setting up your own site
 
 After the original set up is complete, you can now edit your repository.
+
+<a name="chapter1.About_this_template"></a>
 
 #### About this template
 
@@ -45,5 +63,7 @@ This template is based on C++ Toolkit documentation. It consists of several bloc
 * Help page
 
 You can customize any of these blocks. The footer might not need to be customized/updated because it is a standard NCBI footer.
+
+<a name="chapter1.Indexing_your_GitHub_site_with_Google"></a>
 
 ### Indexing your GitHub site with Google.
