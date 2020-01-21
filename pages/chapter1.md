@@ -11,9 +11,10 @@ nav: pages/chapter1
 
 ## Chapter Outline
 
-Your table of content here.
+- [How to start](#how_to_start)
 
 
+<a name="how_to_start"></a>
 How to start
 -------------
 
@@ -41,3 +42,7 @@ This template is based on C++ Toolkit documentation. It consists of several bloc
 * Footer
 * Content
 * Help page
+
+You can customize any of these blocks. The footer might not need to be customized/updated because it is a standard NCBI footer.
+
+### Indexing your GitHub site with Google.
