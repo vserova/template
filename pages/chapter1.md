@@ -15,6 +15,7 @@ nav: pages/chapter1
 
 
 <a name="chapter1.how_to_start"></a>
+
 How to start
 -------------
 
