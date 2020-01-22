@@ -82,15 +82,14 @@ Go to:
 
 https://github.com/ncbi/<your_repository_name>/settings
 
-Sroll down to 'GitHub Pages' section. If everything is fine, you should see a message that your site is successfully published.
+Scroll down to 'GitHub Pages' section. If everything is fine, you should see a message that your site is successfully published. Click the link to see the published site.
 
 <a name="chapter1.Setting_up_your_own_site"></a>
 
-### Setting up your own site
+### Edit your site
 
 After the original set up is complete, you can now edit your repository.
 
-Run 
 
 <a name="chapter1.About_this_template"></a>
 
@@ -113,3 +112,5 @@ The content consists of your parts and chapters. All content files are located i
 <a name="chapter1.Indexing_your_GitHub_site_with_Google"></a>
 
 ### Indexing your GitHub site with Google.
+
+In order to enable Google search on your site, you can use Google sitemaps. Follow the steps on how to build and submit Google sitemaps [here](https://support.google.com/webmasters/answer/183668?hl=en). There are also samples of sitemap (sitemap_000.xml) and robots.txt files in the template's root directory. 
