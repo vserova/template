@@ -47,18 +47,50 @@ The result of this request should be GitHub repository located here: https://git
 ### Cloning the template
 
 The next step is cloning this template. 
-Clone Template repository to create a local copy on your computer. Run:
+1. Clone Template repository to create a local copy on your computer. Run:
 
 ```
-$ git clone https://github.com/vserova/template.git
+$ git clone https://github.com/vserova/template.git -d <your_repository_name>
 ```
+The result of this command will be a directory named <your_repository_name> with template files.
+
 You can read about cloning GitHub repositories [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+2. Run:
+
+```
+$ ./init.sh <your_repository_name>
+```
+
+This script replaces /template/ (the name of template repository) in files with the name of your repository.
+Now your repository is ready to be published.
+
+3. Publish your repository. 
+
+Run this in your terminal:
+
+```
+$ git init
+$ git add --all
+$ git commit -m "Initial Commit"
+$ git remote add origin https://github.com/ncbi/<your_repository_name>.git
+$ git push -u origin master
+``` 
+
+4. Check whether it is published on web. 
+Go to:  
+
+https://github.com/ncbi/<your_repository_name>/settings
+
+Sroll down to 'GitHub Pages' section. If everything is fine, you should see a message that your site is successfully published.
 
 <a name="chapter1.Setting_up_your_own_site"></a>
 
 ### Setting up your own site
 
 After the original set up is complete, you can now edit your repository.
+
+Run 
 
 <a name="chapter1.About_this_template"></a>
 
