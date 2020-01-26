@@ -1,4 +1,4 @@
-function SymbolSearch(bookID)
+function SymbolSearch()
 {
 
   var f = document.forms['frmSymbolSearch'];
@@ -10,7 +10,7 @@ function SymbolSearch(bookID)
 }
 ;
 
-function SymbolSearchKeyPress(bookID,e)
+function SymbolSearchKeyPress(e)
 {
  var nav = ( navigator.appName == "Netscape" ) ? true : false;
  var msie = ( navigator.appName.indexOf("Microsoft") != -1 ) ? true : false;
@@ -18,7 +18,7 @@ function SymbolSearchKeyPress(bookID,e)
 
  if( nav ) { k = e.which; }
  else if( msie ) { k = e.keyCode; }
- if( k==13 ) SymbolSearch(bookID);
+ if( k==13 ) SymbolSearch();
 }
 
 ;

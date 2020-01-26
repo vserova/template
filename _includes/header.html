@@ -24,12 +24,12 @@
 	</div>
     
 	<div style="position: absolute; height: 80px; right: 120px; top: 0; width: 50%" class="search" align="top">
-        	<form name="frmSymbolSearch" onsubmit="return SymbolSearch(&#39;toolkit&#39;)" action="https://ncbi.github.io/" id="frmSymbolSearch">
+        	<form name="frmSymbolSearch" onsubmit="return SymbolSearch()" action="https://ncbi.github.io/" id="frmSymbolSearch">
 		
-				<input id="search_box" name="__symbol" placeholder="Search..." onkeypress="SymbolSearchKeyPress(&#39;toolkit&#39;,event)" type="text">
+				<input id="search_box" name="__symbol" placeholder="Search..." onkeypress="SymbolSearchKeyPress(event)" type="text">
 				<label for="search_box" class="offscreen_noflow">Search term</label>
 				<div id="button-holder">
-					<img src="/template/static/img/search_icon.png" onclick="javasrcipt:SymbolSearch(&#39;toolkit&#39;);">
+					<img src="/template/static/img/search_icon.png" onclick="javasrcipt:SymbolSearch();">
 				</div>
 			
 	
